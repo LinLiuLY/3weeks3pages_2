@@ -120,7 +120,11 @@ header .opt-center .logo {
   color: HSL(208, 41%, 65%);
   display: inline-block;
 }
-/* line 56, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
+header .opt-center .logo a {
+  color: HSL(208, 41%, 65%);
+}
+/* line 61, ../sass/style.scss */
 header .opt-right {
   width: 290px;
   position: absolute;
@@ -128,7 +132,34 @@ header .opt-right {
   bottom: 0;
   right: 0;
 }
-/* line 65, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
+header .opt-right .float-right {
+  float: right;
+  width: 80px;
+  text-align: center;
+}
+/* line 71, ../sass/style.scss */
+header .opt-right .float-right img {
+  width: 40px;
+  display: inline-block;
+  margin: 18px;
+  border-radius: 10px;
+}
+/* line 81, ../sass/style.scss */
+header .opt-right .float-left {
+  float: left;
+}
+/* line 83, ../sass/style.scss */
+header .opt-right .float-left input {
+  width: 160px;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  line-height: 40px;
+  margin: 18px;
+  padding-left: 10px;
+  font-size: 1rem;
+}
+/* line 96, ../sass/style.scss */
 header .opt-left {
   width: 290px;
   position: absolute;
@@ -136,7 +167,7 @@ header .opt-left {
   bottom: 0;
   left: 0;
 }
-/* line 71, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 header .opt-left a {
   display: block;
   height: 40px;
@@ -149,32 +180,32 @@ header .opt-left a {
   color: #4d4d4d;
   transition: all 0.3s ease;
 }
-/* line 83, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 header .opt-left .float-left {
   float: left;
   width: 80px;
   border-right: 1px solid #e6e6e6;
   height: 76px;
 }
-/* line 88, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 header .opt-left .float-left a {
   margin: 18px;
   font-size: 1rem;
   background-color: HSL(208, 41%, 65%);
   color: #fff;
 }
-/* line 96, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 header .opt-left .float-right {
   float: left;
   height: 76px;
 }
-/* line 99, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 header .opt-left .float-right ul {
   float: left;
   margin: 8px;
   font-size: 1rem;
 }
-/* line 103, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 header .opt-left .float-right ul li {
   float: left;
   padding: 10px;
