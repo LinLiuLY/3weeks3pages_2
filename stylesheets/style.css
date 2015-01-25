@@ -160,7 +160,7 @@ body .main .content article {
 /* line 83, ../sass/style.scss */
 body .main .content article .image {
   position: absolute;
-  top: 40px;
+  top: 35px;
   left: 10px;
 }
 /* line 87, ../sass/style.scss */
@@ -222,14 +222,15 @@ body .main .aside-left .profile img {
 /* line 137, ../sass/style.scss */
 body .main .aside-left .profile a {
   text-decoration: none;
+  color: white;
 }
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 body .main .aside-left .profile p {
   padding: 10px;
-  color: black;
+  color: white;
   font-size: 0.8rem;
 }
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 body .main .aside-left .profile .button {
   height: 40px;
   display: inline-block;
@@ -240,21 +241,21 @@ body .main .aside-left .profile .button {
   line-height: 40px;
   font-size: 0.8rem;
 }
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 body .main .aside-left .gallery {
   padding: 20px 0;
 }
-/* line 159, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 body .main .aside-left .gallery img {
   max-width: 100%;
 }
-/* line 163, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 body .main .aside-left .gallery .photo {
   display: inline-block;
   height: 93px;
   width: 93px;
 }
-/* line 172, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 body .main .aside-right {
   position: absolute;
   top: 0;
@@ -263,22 +264,22 @@ body .main .aside-right {
   width: 290px;
   background-color: white;
 }
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 body .main .aside-right h1 {
   padding: 20px 0;
   color: gray;
 }
-/* line 185, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 body .main .aside-right .links {
   padding: 20px;
 }
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 body .main .aside-right a {
   display: block;
   color: HSL(208, 41%, 65%);
 }
 
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 header {
   height: 76px;
   position: fixed;
@@ -289,7 +290,7 @@ header {
   z-index: 1;
   border-bottom: solid 2px #eee;
 }
-/* line 207, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 header .opt-center {
   position: absolute;
   top: 0;
@@ -299,7 +300,7 @@ header .opt-center {
   align: center;
   text-align: center;
 }
-/* line 215, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 header .opt-center .logo {
   line-height: 76px;
   margin: 0 auto;
@@ -307,11 +308,11 @@ header .opt-center .logo {
   color: HSL(208, 41%, 65%);
   display: inline-block;
 }
-/* line 222, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 header .opt-center .logo a {
   color: HSL(208, 41%, 65%);
 }
-/* line 229, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 header .opt-right {
   width: 290px;
   position: absolute;
@@ -319,34 +320,39 @@ header .opt-right {
   bottom: 0;
   right: 0;
 }
-/* line 235, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 header .opt-right .float-right {
   float: right;
   width: 80px;
   text-align: center;
 }
-/* line 239, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 header .opt-right .float-right img {
   width: 40px;
   display: inline-block;
   margin: 18px;
   border-radius: 10px;
 }
-/* line 249, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 header .opt-right .float-left {
   float: left;
 }
-/* line 251, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
+header .opt-right .float-left span {
+  position: relative;
+  left: -40px;
+}
+/* line 256, ../sass/style.scss */
 header .opt-right .float-left input {
   width: 160px;
   border: 1px solid #d9d9d9;
   border-radius: 20px;
   line-height: 40px;
-  margin: 18px;
+  margin: 18px 0px;
   padding-left: 10px;
   font-size: 1rem;
 }
-/* line 264, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 header .opt-left {
   width: 290px;
   position: absolute;
@@ -354,7 +360,7 @@ header .opt-left {
   bottom: 0;
   left: 0;
 }
-/* line 270, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 header .opt-left a {
   display: block;
   height: 40px;
@@ -367,32 +373,32 @@ header .opt-left a {
   color: #4d4d4d;
   transition: all 0.3s ease;
 }
-/* line 282, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 header .opt-left .float-left {
   float: left;
   width: 80px;
   border-right: 1px solid #e6e6e6;
   height: 76px;
 }
-/* line 287, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 header .opt-left .float-left a {
   margin: 18px;
   font-size: 1rem;
   background-color: HSL(208, 41%, 65%);
   color: #fff;
 }
-/* line 296, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 header .opt-left .float-right {
   float: left;
   height: 76px;
 }
-/* line 299, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 header .opt-left .float-right ul {
   float: left;
   margin: 8px;
   font-size: 1rem;
 }
-/* line 303, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 header .opt-left .float-right ul li {
   float: left;
   padding: 10px;

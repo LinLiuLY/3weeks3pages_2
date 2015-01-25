@@ -82,7 +82,7 @@ body {
 				position:relative;
 				.image {
 					position: absolute;
-    				top: 40px;
+    				top: 35px;
     				left: 10px;
 					img {
 						height: 50px;
@@ -136,10 +136,11 @@ body {
     			}
     			a {
 				    text-decoration: none;
+				    color:white;
     			}
     			p {
     				padding:10px;
-    				color:black;
+    				color:white;
     				font-size: 0.8rem;
     			}
     			.button {
@@ -248,12 +249,16 @@ header {
 
 			.float-left {
 				float:left;
+				span {
+				    position: relative;
+    				left: -40px;
+				}
 				input {
 				  width: 160px;
 				  border: 1px solid #d9d9d9;
 				  border-radius: 20px;
 				  line-height: 40px;
-				  margin: 18px;
+				  margin: 18px 0px;
 				  padding-left: 10px;
 				  font-size: 1rem;
 				}
