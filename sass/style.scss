@@ -35,12 +35,51 @@ header {
     left: 0px;
     background-color: white;
     z-index: 1;
+
+	.opt-center {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		align: center;
+		text-align: center;
+		.logo {
+			line-height: 76px;
+			margin: 0 auto;
+			font-size: 2rem;
+			color: HSL(208, 41%, 65%);
+			display: inline-block;
+		}
+	}
+
+	.opt-right {
+			width: 290px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+	}		
+
+
     .opt-left {
 			width: 290px;
 			position: absolute;
 			top: 0;
 			bottom: 0;
 			left: 0;
+				a {
+					display: block;
+					height: 40px;
+					width: 40px;
+					border: 1px solid #e6e6e6;
+					border-radius: 50%;
+					line-height: 40px;
+					text-align: center;
+					text-decoration: none;
+					color: #4d4d4d;
+					transition: all 0.3s ease;
+				}
 			.float-left {
 				float: left;
 				width: 80px;
@@ -67,19 +106,10 @@ header {
 					 }
 				}
 			}
-			a {
-					display: block;
-					height: 40px;
-					width: 40px;
-					border: 1px solid #e6e6e6;
-					border-radius: 50%;
-					line-height: 40px;
-					text-align: center;
-					text-decoration: none;
-					color: #4d4d4d;
-					transition: all 0.3s ease;
-				}
+			
     	}
+
+    
 
 }
 
