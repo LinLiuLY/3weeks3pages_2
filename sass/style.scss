@@ -1,2 +1,87 @@
 @import "compass/reset";
 @import "compass/css3";
+
+body {
+	padding-top:76px;
+	background-color:HSL(36, 28%, 93%);
+	.main {
+		position: relative;
+		z-index: 2;
+		.aside-left {
+			position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    width: 290px;
+		    background-color:HSL(208, 41%, 65%);
+		}
+
+		.aside-right {
+			position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    width: 290px;
+		    background-color:white;
+		}
+	}
+}
+
+header {
+    height: 76px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 1;
+    .opt-left {
+			width: 290px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			.float-left {
+				float: left;
+				width: 80px;
+				border-right: 1px solid #e6e6e6;
+				height: 76px;
+				a {
+					margin: 18px;
+  					font-size: 1rem;
+  					background-color:HSL(208, 41%, 65%);
+  					color:#fff;
+				}
+				
+			}
+			.float-right {
+				float: left;
+				height: 76px;
+				ul {
+					float: left;
+					margin: 8px;
+					font-size: 1rem;
+					 li {
+					 	float:left;
+					 	padding:10px;
+					 }
+				}
+			}
+			a {
+					display: block;
+					height: 40px;
+					width: 40px;
+					border: 1px solid #e6e6e6;
+					border-radius: 50%;
+					line-height: 40px;
+					text-align: center;
+					text-decoration: none;
+					color: #4d4d4d;
+					transition: all 0.3s ease;
+				}
+    	}
+
+}
+
+
+
