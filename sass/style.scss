@@ -70,6 +70,20 @@ body {
 		    bottom: 0;
 		    width: 290px;
 		    background-color:white;
+
+		    h1 {
+		    	padding: 20px 0;
+				color: gray;	
+		    }
+
+		    .links {
+    			padding:20px;
+		    }
+
+		    a {
+		    	display: block;
+		    	color:HSL(208, 41%, 65%);
+		    }
 		}
 	}
 }
