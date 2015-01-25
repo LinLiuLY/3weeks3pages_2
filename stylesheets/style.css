@@ -83,33 +83,33 @@ body .main .aside-left {
   width: 290px;
   background-color: HSL(208, 41%, 65%);
 }
-/* line 18, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body .main .aside-left .profile {
   text-align: center;
   padding: 20px;
 }
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 body .main .aside-left .profile strong {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body .main .aside-left .profile img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
-/* line 30, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 body .main .aside-left .profile a {
   text-decoration: none;
 }
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 body .main .aside-left .profile p {
   padding: 10px;
   color: black;
   font-size: 0.8rem;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 body .main .aside-left .profile .button {
   height: 40px;
   display: inline-block;
@@ -121,6 +121,20 @@ body .main .aside-left .profile .button {
   font-size: 0.8rem;
 }
 /* line 51, ../sass/style.scss */
+body .main .aside-left .gallery {
+  padding: 20px 0;
+}
+/* line 53, ../sass/style.scss */
+body .main .aside-left .gallery img {
+  max-width: 100%;
+}
+/* line 57, ../sass/style.scss */
+body .main .aside-left .gallery .photo {
+  display: inline-block;
+  height: 93px;
+  width: 93px;
+}
+/* line 66, ../sass/style.scss */
 body .main .aside-right {
   position: absolute;
   top: 0;
@@ -130,7 +144,7 @@ body .main .aside-right {
   background-color: white;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 header {
   height: 76px;
   position: fixed;
@@ -140,7 +154,7 @@ header {
   background-color: white;
   z-index: 1;
 }
-/* line 71, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 header .opt-center {
   position: absolute;
   top: 0;
@@ -150,7 +164,7 @@ header .opt-center {
   align: center;
   text-align: center;
 }
-/* line 79, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 header .opt-center .logo {
   line-height: 76px;
   margin: 0 auto;
@@ -158,11 +172,11 @@ header .opt-center .logo {
   color: HSL(208, 41%, 65%);
   display: inline-block;
 }
-/* line 86, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 header .opt-center .logo a {
   color: HSL(208, 41%, 65%);
 }
-/* line 93, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 header .opt-right {
   width: 290px;
   position: absolute;
@@ -170,24 +184,24 @@ header .opt-right {
   bottom: 0;
   right: 0;
 }
-/* line 99, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 header .opt-right .float-right {
   float: right;
   width: 80px;
   text-align: center;
 }
-/* line 103, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 header .opt-right .float-right img {
   width: 40px;
   display: inline-block;
   margin: 18px;
   border-radius: 10px;
 }
-/* line 113, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 header .opt-right .float-left {
   float: left;
 }
-/* line 115, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 header .opt-right .float-left input {
   width: 160px;
   border: 1px solid #d9d9d9;
@@ -197,7 +211,7 @@ header .opt-right .float-left input {
   padding-left: 10px;
   font-size: 1rem;
 }
-/* line 128, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 header .opt-left {
   width: 290px;
   position: absolute;
@@ -205,7 +219,7 @@ header .opt-left {
   bottom: 0;
   left: 0;
 }
-/* line 134, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 header .opt-left a {
   display: block;
   height: 40px;
@@ -218,32 +232,32 @@ header .opt-left a {
   color: #4d4d4d;
   transition: all 0.3s ease;
 }
-/* line 146, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 header .opt-left .float-left {
   float: left;
   width: 80px;
   border-right: 1px solid #e6e6e6;
   height: 76px;
 }
-/* line 151, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 header .opt-left .float-left a {
   margin: 18px;
   font-size: 1rem;
   background-color: HSL(208, 41%, 65%);
   color: #fff;
 }
-/* line 160, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 header .opt-left .float-right {
   float: left;
   height: 76px;
 }
-/* line 163, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 header .opt-left .float-right ul {
   float: left;
   margin: 8px;
   font-size: 1rem;
 }
-/* line 167, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 header .opt-left .float-right ul li {
   float: left;
   padding: 10px;
