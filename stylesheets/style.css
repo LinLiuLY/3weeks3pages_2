@@ -322,15 +322,15 @@ header .opt-right {
 }
 /* line 236, ../sass/style.scss */
 header .opt-right .float-right {
-  float: right;
-  width: 80px;
+  float: left;
+  width: 60px;
   text-align: center;
 }
 /* line 240, ../sass/style.scss */
 header .opt-right .float-right img {
   width: 40px;
   display: inline-block;
-  margin: 18px;
+  margin: 18px 6px;
   border-radius: 10px;
 }
 /* line 250, ../sass/style.scss */

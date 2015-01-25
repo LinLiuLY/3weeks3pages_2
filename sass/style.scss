@@ -234,13 +234,13 @@ header {
 			bottom: 0;
 			right: 0;
 			.float-right {
-				  float: right;
-				  width: 80px;
+				  float: left;
+				  width: 60px;
 				  text-align: center;
 				  img {
 				  	width: 40px;
 				    display: inline-block;
-				    margin: 18px;
+				    margin: 18px 6px;
 				    border-radius: 10px;
 					}
 
