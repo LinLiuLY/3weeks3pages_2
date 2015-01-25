@@ -76,7 +76,7 @@ body .main {
 }
 /* line 12, ../sass/style.scss */
 body .main .content {
-  padding: 0 22%;
+  padding: 0 320px;
 }
 /* line 16, ../sass/style.scss */
 body .main .content .nav-bar {
