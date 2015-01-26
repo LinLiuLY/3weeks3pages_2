@@ -5,10 +5,12 @@ body {
 	padding-top:76px;
 	background-color:HSL(36, 28%, 93%);
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-image:url(../images/background.png);
+	opacity:0.9;
 	.main {
 		position: relative;
 		z-index: 0;
-
+		
 		.content {
 			padding:0 320px;
 
